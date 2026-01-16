@@ -132,7 +132,6 @@ while current_score < 21:
     if not player_lose:
         print("-" * 30)
         print("კომპიუტერის ჯერია.")
-        computer_hand.append(deck.pop())
         while computer_score < 17:
             print("კომპიუტერი იღებს კარტს.")
             computer_hand.append(deck.pop())
@@ -152,7 +151,6 @@ while current_score < 21:
         else:
             print("თამაში ფრედ დასრულდა")
             break
-
 
 # 3.
 import datetime
@@ -187,7 +185,6 @@ while True:
                 f.write(f"{datetime.datetime.now()}: შემოტანა - {money} ლარი\n, ბალანსი - {balance}")
 
                 print(f"თქვენ შეიტანეთ {money} ლარი.")
-
 
 
 
